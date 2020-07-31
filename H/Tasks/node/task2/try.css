@@ -1,0 +1,24 @@
+
+    body 
+    {
+        text-align:center;
+        background-color:rgb(255, 255, 255);
+        margin:70px;
+    }
+    p 
+    {
+        color:rgb(0, 0, 0);
+        letter-spacing:4px;
+    }
+    .orangeBackground
+    {
+        background-color: rgba(247, 217, 183, 0.384);
+        width: 94%;
+        padding: 25px;
+        margin: 10px;
+    }
+    .whiteBackground
+    {
+        padding: 25px;
+        margin: 10px;
+    }

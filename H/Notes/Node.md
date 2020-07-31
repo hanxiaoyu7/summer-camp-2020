@@ -105,6 +105,8 @@ fs.readFile('sample.png', function (err, data) {
     }
 });
 ```
+当读取二进制文件时，不传入文件编码时，回调函数的data参数将返回一个Buffer对象。在Node.js中，Buffer对象就是一个包含零个或任意个字节的数组（注意和Array不同）
+
 同步读取readFileSync：
 多了一个Sync后缀，并且不接收回调函数，函数直接返回结果。
 ```

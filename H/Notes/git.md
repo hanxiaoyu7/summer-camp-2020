@@ -33,7 +33,9 @@
 
 ![git3](\pics\git3.png )
 `git branch` 查看目前分支  
+`git branch -a`查看所有分支（包括远端）
 `git branch xxx` 创造新分支  
+`git branch -d xxx` 删除分支
 `git checkout 分支名` 转换到分支“分支名”上  
 `git log --oneline` 查看当前分支简易日志（时间点按倒序排列）  
 `git log` 查看当前分支完整日志  
@@ -43,3 +45,5 @@
 ![git4](\pics\git4.png )
 ![git5](\pics\git5.png )
 ![git6](\pics\git6.png )
+`git branch -vv` 查看我们本地分支对应的远程分支   
+`git checkout -b 自己起的分支名字 origin/线上分支名` 从线上分支拉取一个分支到本地并起名

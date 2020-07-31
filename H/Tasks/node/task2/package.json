@@ -9,6 +9,9 @@
   "author": "Xiaoyu Han",
   "license": "ISC",
   "dependencies": {
-    "chalk": "^4.1.0"
+    "chalk": "^4.1.0",
+    "marked": "^1.1.1",
+    "mime": "^2.4.6",
+    "open": "^7.1.0"
   }
 }
